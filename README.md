@@ -2,7 +2,7 @@
 Spring-React
 
 ## Description
-This project is a personal initiative to enhance my problem-solving skills, build a strong foundation in data structures and algorithms, and prepare for coding interviews and high-impact software engineering roles. Along the way, I document my thought process, key learnings, and performance optimizations to track progress and reinforce continuous improvement
+This project is a personal initiative to enhance my problem-solving skills
 
 ## Technologies
 [Java, Spring Boot, SQL, React,Redis]
