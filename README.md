@@ -2,7 +2,7 @@
 Spring-React
 
 ## Description
-A Spring Security protected REST controller endpoint for processing financial transactions securely, efficiently handling high throughput and returning detailed receipts and  efficiently handling high throughput and returning detailed receipts
+A Spring Security protected REST controller endpoint for processing financial transactions securely, efficiently handling high throughput and returning detailed receipts
 
 ## Technologies
 [Java, Spring Boot, MySQL, React]
