@@ -2,7 +2,7 @@
 Spring-React
 
 ## Description
-This project is a personal initiative to enhance my problem-solving skills
+A Spring Security protected REST controller endpoint for processing financial transactions securely, efficiently handling high throughput and returning detailed receipts.
 
 ## Technologies
 [Java, Spring Boot, SQL, React,Redis]
