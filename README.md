@@ -1,4 +1,4 @@
-const projectsData = Project[] = [
+Projectdetails:[
   {
 codeSnippet: 
 `@Service
@@ -17,8 +17,6 @@ public class InventoryService {
       // Logger.info("Stock updated...");
       return product.getStockLevel();
     }
-}`
-
+}`,
 Technologies:[Java,React,Spring boot,SQL]
-}
-];
+]
