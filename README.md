@@ -1,4 +1,5 @@
 # Spring-React
+
 Spring Boot starter project for hands-on REST API practice
 
 Technologies: [Java, Spring Boot, React, SQL]
