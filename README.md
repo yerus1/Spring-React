@@ -1,3 +1,5 @@
+# Code
+```java []
 @Service
 public class InventoryService {
     @Autowired
@@ -15,6 +17,6 @@ public class InventoryService {
       return product.getStockLevel();
     }
 }
-
+```
 
 Technologies:[Java,React,Spring boot,SQL]
