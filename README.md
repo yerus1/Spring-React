@@ -1,10 +1,10 @@
-const projects = [
-  {
-    projectName: "REST API",
-    projectDescription: "Spring Boot starter project for hands-on REST API practice",
-    technologies: ["Java", "Spring Boot", "SQL", "React"],
-    codeSnippet: 
-`@Service
+# Spring-React
+Spring Boot starter project for hands-on REST API practice
+
+Technologies: [Java, Spring Boot, React, SQL]
+
+```java
+@Service
 public class InventoryService {
     @Autowired
     private ProductRepository productRepo;
@@ -16,7 +16,6 @@ public class InventoryService {
         productRepo.save(product);
         return product.getStockLevel();
     }
-}`
-  }
-];
-
+}
+```
+----
