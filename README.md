@@ -10,17 +10,22 @@ A Spring Security protected REST controller endpoint for processing financial tr
 ## Code Snippet
 ```java
 @Service
-public class InventoryService {
-    @Autowired
-    private ProductRepository productRepo;
+public class ProductService {
+  private final List<String> categories = Arrays.asList(
+    "Electronics", "Clothing", "Books", "Home & Kitchen", "Beauty"
+  );
 
-    @Transactional
-    public StockLevel updateStock(String productId, int change) {
-        Product product = productRepo.findById(productId).orElseThrow();
-        product.adjustStock(change);
-        productRepo.save(product);
-        return product.getStockLevel();
-    }
+  @Autowired
+  private ProductRepository productRepo;
+
+  public ProductProfile getProductProfile() {
+    return ProductProfile.builder()
+      .popularCategory("Electronics")
+      .availableCategories(this.categories)
+      .totalProducts(productRepo.countAll())
+      .outOfStockProducts(productRepo.countOutOfStock())
+      .build();
+  }
 }
 ```
 
